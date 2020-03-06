@@ -39,7 +39,7 @@
 - belongs_to :user
 
 
-## message テーブル
+## group テーブル
 
 |Column|Type|Options|
 |------|----|-------|

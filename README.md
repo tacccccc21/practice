@@ -33,7 +33,7 @@
 |image|text||
 |body|text||
 |user_id|integer|null: false, foreign_key: true|
-|proup_id|integer|null: false, foreign_key: true|
+|group_id|integer|null: false, foreign_key: true|
 
 ### Association
 - belongs_to :user
@@ -48,5 +48,5 @@
 
 ### Association
 - has_many :messages
-- has_many :user, through: :groups_users
+- has_many :users, through: :groups_users
 - has_many :groups_users
